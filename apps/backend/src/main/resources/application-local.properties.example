@@ -1,0 +1,13 @@
+spring.datasource.url=jdbc:postgresql://db.fbdnytkqqkagttvjihni.supabase.co:5432/postgres?sslmode=require
+spring.datasource.username=postgres
+spring.datasource.password=YOUR_SUPABASE_DATABASE_PASSWORD
+
+app.supabase.url=https://fbdnytkqqkagttvjihni.supabase.co
+app.supabase.anon-key=YOUR_SUPABASE_ANON_KEY
+app.supabase.service-role-key=
+
+app.jwt.secret=replace-with-a-long-random-secret-at-least-32-characters
+app.jwt.expiration-ms=86400000
+
+app.qloo.api-key=
+app.qloo.base-url=https://api.qloo.com
